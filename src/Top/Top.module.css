@@ -1,0 +1,10 @@
+.Top {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Top img {
+  width: auto;
+  height: 4vh;
+}
