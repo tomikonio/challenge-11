@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Top from './Top/Top';
+import Top from './components/Top/Top';
 
 class App extends Component {
   render() {

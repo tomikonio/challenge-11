@@ -1,0 +1,7 @@
+.Button-Top {
+  border-radius: 5rem;
+  color: hsl(322, 100%, 66%);
+  background: white;
+  padding: 0.5rem 1.4rem;
+  border: 0.05rem solid hsl(322, 100%, 66%);
+}
