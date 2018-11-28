@@ -1,7 +1,20 @@
-.Button-Top {
+.Button {
   border-radius: 5rem;
+}
+
+.Button-Top {
   color: hsl(322, 100%, 66%);
   background: white;
-  padding: 0.5rem 1.4rem;
   border: 0.05rem solid hsl(322, 100%, 66%);
+  padding: 0.5rem 1.4rem;
+}
+
+.Button-Middle {
+  color: white;
+  background: hsl(322, 100%, 66%);
+  border: 0.05rem solid white;
+  box-shadow: 0px 5px 5px 2px hsl(0, 0%, 94%);
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  margin-top: 1rem;
 }

@@ -8,7 +8,7 @@ const Top = () => {
   return (
     <div className={style.Top}>
       <img src={logo} alt="logo" />
-      <Button text="Try it Free" type="Button-Top" />
+      <Button type="Button-Top">Try it Free</Button>
     </div>
   );
 };

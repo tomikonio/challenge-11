@@ -2,8 +2,12 @@ import React from 'react';
 
 import styles from './Button.module.css';
 
-const Button = ({ text, type }) => {
-  return <button className={styles[type]}>{text}</button>;
+const Button = props => {
+  return (
+    <button className={`${styles[props.type]} ${styles.Button}`}>
+      {props.children}
+    </button>
+  );
 };
 
 export default Button;
